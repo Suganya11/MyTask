@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>Forms</h2>
+      <label for="name">Name: </label><br />
+      <input type="text" id="name" />
+      <br />
+      <label for="email">EmailID</label>
+      <br />
+      <input type="email" , id="email" ,name="email" , />
+      <br />
+      <label for="mobile">Mobile number</label>
+      <input
+        type="tel"
+        ,
+        id="mobile"
+        ,
+        placeholder="123-456-7890"
+        ,
+        name="
+        mobile
+        number"
+        ,
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+      <br />
+      <label for="fav_color">Select your favourite color</label>
+      <input type="color" ,id="fav_color" , value="green" />
+      <br />
+      <label for="pwd">Password</label>
+      <br />
+      <input type="password" , id="pwd" />
+      <br />
+      <label for="birthday">Birthday:</label>
+      <br />
+      <input type="date" , id="birthday" , name="birthday" />
+
+      <input
+        type="submit"
+        onclick="alert('Thank u for submitting')"
+        ,
+        value="submit"
+      /><br />
+
+      <h3>I am interested in Programming Language</h3>
+
+      <input type="radio" , id="HTML" , name="fav_language" , value="HTML" />
+      <label for="HTML">HTML</label>
+      <br />
+
+      <input type="radio" , id="CSS" , name="fav_language" , value="CSS" />
+      <label for="CSS">CSS</label>
+      <br />
+      <input
+        type="radio"
+        ,
+        id="JavaScript"
+        ,
+        name="fav_language"
+        ,
+        value="JavaScript"
+      />
+      <label for="JavaScript">JavaScript</label>
+
+      <br />
+      <h3>I am interested in the following languages</h3>
+      <input type="checkbox" , id="web" , name="web" , value="Web" />
+      <label for="web">Web Development</label><br />
+      <input
+        type="checkbox"
+        ,
+        id="software"
+        ,
+        name="software"
+        ,
+        value="software"
+      />
+      <label for="software">Software Development</label><br />
+      <input
+        type="checkbox"
+        ,
+        id="testing"
+        ,
+        name="testing"
+        ,
+        value="testing"
+      />
+      <label for="testing">Software Testing</label><br />
+      <input
+        type="checkbox"
+        ,
+        id="digital"
+        ,
+        name="digital"
+        ,
+        value="digital"
+      />
+      <label for="digital">Digital Marketing</label><br />
+    </form>
+  </body>
+</html>
